@@ -1,0 +1,44 @@
+.login {
+    width: 400px;
+    height: 100%;
+    display: flex;
+ 
+}
+
+.login h2 {
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.register-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-text {
+    margin: 15px;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 15px;
+}
+
+.button>.MuiButtonBase-root {
+    width: 330px;
+    margin: 10px;
+}
+
+.link {
+    text-align: center;
+}
+
+.link>.MuiTypography-root {
+    justify-content: space-between;
+}
+
+.link>a:hover {
+    text-decoration: none;
+}
