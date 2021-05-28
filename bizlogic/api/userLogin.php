@@ -31,6 +31,7 @@ class Login
                 $response["message"] = $message;
                 $response["data"] = $data;
             } else {
+                $message = "";
                 $response["status"] = 404;
                 $response["message"] =  $conn->error;
                 $response["data"] = [];
