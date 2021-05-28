@@ -67,4 +67,5 @@ INSERT INTO `User` (`id`, `username`, `name`, `auth_key`, `status`, `pswdFailedA
 (1, 'admin', 'Lilja Lampinen', '007OojGHPBXwngl5UE8so5NBkUuyhKf_', 1, NULL, '96e79218965eb72c92a549dd5a330112', '$2y$13$6rHoTJhsber6KZ.Ny0p4A.R77cfliz6xwEFTea/jqrOsb7oC3hEpC', NULL, 'lilja@example.com', NULL, 'admin', 'admin', '2020-11-26 17:41:55', '2020-11-26 17:41:55'),
 (2, 'heinz', 'Heinz Georg', '', 1, NULL, '96e79218965eb72c92a549dd5a330112', '$2y$13$6rHoTJhsber6KZ.Ny0p4A.R77cfliz6xwEFTea/jqrOsb7oC3hEpC', NULL, 'heinz@example.com', NULL, 'admin', 'admin', '2020-11-26 07:58:53', '2020-11-26 10:58:53'),
 (3, 'katie', 'Katie Hughes', '', 1, NULL, '96e79218965eb72c92a549dd5a330112', '$2y$13$6rHoTJhsber6KZ.Ny0p4A.R77cfliz6xwEFTea/jqrOsb7oC3hEpC', NULL, 'katie@example.com', NULL, 'admin', 'admin', '2020-11-26 06:58:53', '2020-11-26 06:58:53');
+(5, 'aaa', 'aaaa', '123', 1, "", '111', '111', NULL, 'katie@example.com', NULL, 'admin', 'admin', '2020-11-26 06:58:53', '2020-11-26 06:58:53');
 COMMIT;
