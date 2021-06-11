@@ -1,3 +1,6 @@
 RewriteEngine On    # Turn on the rewriting engine
 RewriteRule ^login$ api.php [NC,L]
+RewriteRule ^logout$ api.php [NC,L]
+RewriteRule ^register$ api.php [NC,L]
+RewriteRule ^getall$ api.php [NC,L]
 
